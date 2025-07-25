@@ -25,24 +25,26 @@ export default function Home() {
     <>
       <section id="inicio" className="w-full flex flex-col items-center justify-center min-h-[60vh] py-16 px-4 bg-gradient-to-br from-blue-50 via-white to-blue-100 animate-fade-in">
         <h1 className="text-4xl md:text-6xl font-extrabold text-gray-800 drop-shadow mb-4 text-center">
-          <span className="bg-blue-600 text-white px-4 py-2 rounded-lg">Nossa</span> Frota
+          <span className="bg-blue-600 text-white px-4 py-2 rounded-lg">Dicas</span> de Viagem
         </h1>
-        <p className="text-lg md:text-2xl text-gray-700 mb-8 text-center max-w-2xl">Veículos modernos, confortáveis e seguros para sua viagem.</p>
+        <p className="text-lg md:text-2xl text-gray-700 mb-8 text-center max-w-2xl">
+          Confira nossas recomendações em tempo real para sua próxima aventura!
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl w-full">
           <div className="bg-white/80 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all">
+            <div className="text-4xl mb-3">🌴</div>
+            <h3 className="text-lg font-semibold mb-2">Sugestão de Viagem</h3>
+            <p className="text-gray-600 text-sm">Viagem para o litoral: aproveite o verão com conforto e segurança!</p>
+          </div>
+          <div className="bg-white/80 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all">
+            <div className="text-4xl mb-3">🏞️</div>
+            <h3 className="text-lg font-semibold mb-2">Sugestão de Passeio</h3>
+            <p className="text-gray-600 text-sm">Passeio no parque ecológico: contato com a natureza e lazer para toda família.</p>
+          </div>
+          <div className="bg-white/80 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all">
             <div className="text-4xl mb-3">🚌</div>
-            <h3 className="text-lg font-semibold mb-2">Ônibus Executivo</h3>
-            <p className="text-gray-600 text-sm">Ar-condicionado, Wi-Fi e poltronas reclináveis</p>
-          </div>
-          <div className="bg-white/80 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all">
-            <div className="text-4xl mb-3">🚐</div>
-            <h3 className="text-lg font-semibold mb-2">Micro-ônibus</h3>
-            <p className="text-gray-600 text-sm">Ideal para grupos menores e viagens rápidas</p>
-          </div>
-          <div className="bg-white/80 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all">
-            <div className="text-4xl mb-3">🚗</div>
-            <h3 className="text-lg font-semibold mb-2">Van</h3>
-            <p className="text-gray-600 text-sm">Versatilidade para traslados urbanos</p>
+            <h3 className="text-lg font-semibold mb-2">Sugestão de Excursão</h3>
+            <p className="text-gray-600 text-sm">Excursão para Aparecida do Norte: fé, cultura e momentos inesquecíveis.</p>
           </div>
         </div>
       </section>
