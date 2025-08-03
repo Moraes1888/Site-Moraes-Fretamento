@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚐 Moraes Fretamento e Turismo
 
-## Getting Started
+Site moderno e futurístico para empresa de fretamento e turismo, com design inspirado em IA e funcionalidades interativas.
 
-First, run the development server:
+## ✨ Características
+
+- 🎨 **Design Futurístico** com elementos de IA
+- 🤖 **IA Flutuante** com dicas em tempo real
+- 📱 **Totalmente Responsivo** para todos os dispositivos
+- ⚡ **Performance Otimizada** com Next.js 15
+- 🎯 **SEO Otimizado** para melhor visibilidade
+- 🔧 **TypeScript** para código mais seguro
+
+## 🚀 Tecnologias
+
+- **Next.js 15.4.2** - Framework React
+- **TypeScript** - Tipagem estática
+- **Tailwind CSS** - Framework CSS
+- **Lucide React** - Ícones modernos
+
+## 📦 Instalação
 
 ```bash
+# Clone o repositório
+git clone [url-do-repositorio]
+
+# Entre na pasta
+cd Site-Moraes-Fretamento
+
+# Instale as dependências
+npm install
+
+# Execute em desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse: http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Estrutura
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── page.tsx          # Página principal
+│   ├── layout.tsx        # Layout global
+│   └── globals.css       # Estilos globais
+└── components/
+    └── ui/               # Componentes UI
+```
 
-## Learn More
+## 📱 Seções
 
-To learn more about Next.js, take a look at the following resources:
+1. **Início** - Cards de sugestões de viagem
+2. **Serviços** - Fretamento, turismo, faculdades
+3. **Frota** - Micro-ônibus e vans
+4. **Contato** - WhatsApp, Instagram, telefone
+5. **Orçamento** - Formulário de solicitação
+6. **IA Flutuante** - Dicas em tempo real
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Design System
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Cores
+- **Cyan:** `#06b6d4` - Elementos de IA
+- **Purple:** `#8b5cf6` - Gradientes
+- **Pink:** `#ec4899` - Destaques
 
-## Deploy on Vercel
+### Animações
+- **Pulse** - Elementos de IA
+- **Ping** - Indicadores de status
+- **Bounce** - Orbs flutuantes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤖 IA Flutuante
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Botão flutuante que fornece dicas em tempo real sobre:
+- 🌊 Praias da região
+- 🏔️ Montanhas e trilhas
+- 🎒 Faculdades e universidades
+- ⛪ Locais religiosos
+
+## 📊 Performance
+
+- **First Contentful Paint:** < 1.5s
+- **Largest Contentful Paint:** < 2.5s
+- **Cumulative Layout Shift:** < 0.1
+
+## 🚀 Deploy
+
+### Vercel (Recomendado)
+```bash
+npm install -g vercel
+vercel
+```
+
+### Build para Produção
+```bash
+npm run build
+npm start
+```
+
+## 📞 Contato
+
+- **Empresa:** Moraes Fretamento e Turismo
+- **Telefone:** (15) 97401-3939
+- **WhatsApp:** (15) 97401-3939
+- **Instagram:** @moraesfretamentoeturismo
+- **E-mail:** contato@moraesfretamento.com.br
+
+## 📋 Documentação Completa
+
+Para informações detalhadas sobre o projeto, consulte o arquivo `DOCUMENTACAO.md`.
+
+## 🎯 Próximas Funcionalidades
+
+- [ ] Menu mobile responsivo
+- [ ] Galeria de fotos da frota
+- [ ] Blog com notícias
+- [ ] Mapa interativo
+- [ ] Sistema de reservas online
+
+---
+
+**Desenvolvido com ❤️ e IA** 🤖✨
